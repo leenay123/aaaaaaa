@@ -1,0 +1,322 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+	<style>
+	#wrapper{position:relative; height:4300px;width:1200px; margin:0 auto; overflow:hidden; background:url(images/bottom-bg.jpg)no-repeat 0 2180px;}
+	
+	
+	/*header*/
+	      h1 {position:absolute;top:15px;left:20px; }
+		  
+		 .main a{text-decoration:none; color:#fff;}
+			.main a:hover {color:#c8ca45; }
+		 #gnb{font-size:18px;position:absolute; top:35px;right:10px;}
+			#gnb li{float:left;position:relative; margin-right:50px;}
+				#gnb ul{position:absolute;  display:none;}
+				#gnb li:hover ul{font-size:15px;padding-top:10px;display:block; width:200px;line-height :22pt;}
+	/*slider*/
+	
+	
+
+	#big{width:1200px; height:768px; margin:0 auto;}
+			.s1{position:absolute; }
+			.s2 {position:absolute;top:0px;left:1200px; }
+			.s3 {position:absolute;top:0px;left:2400px;  }
+			
+	
+
+		.hello{position:absolute;top: 120px;left:40px; }
+			.hello img:hover{transform:scale(1.05); transition:all 0.5s ease-in-out;}
+		  .left{position:absolute; left:20px; top:340px;}
+		  .right{position:absolute; right:20px; top:340px;}
+			.left img:hover{transform:scale(1.2); transition:all 0.3s ease-in-out;}
+			.right img:hover{transform:scale(1.2); transition:all 0.3s ease-in-out;}
+			.left2 img:hover{transform:scale(1.2); transition:all 0.3s ease-in-out;}
+			.right2 img:hover{transform:scale(1.2); transition:all 0.3s ease-in-out;}
+				
+	
+		
+	/*content*/
+		h2{margin:80px 370px;}
+		
+		.room li{float:left;}
+			.room li img{vertical-align:middle;}
+		
+		
+		#content2 li .with{margin:380px 80px;}
+		 #content2 li .s1 {margin:50px 70px ;} 
+		.withW{position:absolute;  top:2550px; left:80px;}
+		.Direct{position:absolute;  position:absolute;top:2700px; right:60px;}
+		
+		
+	
+		
+		.bottomMenu li { float:left; margin-right:20px;margin-top:1250px;}
+		 .i1 {margin-left:60px;}
+		 
+		 /* .s1 {position:relative;z-index:2;}
+		 .s2{position:absolute; top:1817px;left:70px;}
+		 .s3{position:absolute; top:1817px;left:70px; }   */
+		 
+		 .left2 {position:absolute; left:11px; top:2135px;z-index:1; }
+		 .right2 {position:absolute; right:12px; top:2135px;z-index:1;}
+		 
+	/*slider2*/
+	
+		*{margin:0; padding:0;}
+			#parent{width:1055px; height:659px; position:absolute; left:70px; top:1850px; border:0; overflow:hidden;}
+
+				#imgslide{width:3169px; height:659px;}
+					#imgslide ul li{position:absolute; left:0px; top: 0px;list-style:none;}
+						#imgslide ul li img{width:1055px; height:659px;  }
+						.sd1 {position:absolute; top:0px;left:0px;}
+						.sd2{position:absolute;top:0px;left:0px; }
+		                .sd3{position:absolute; top:0px;left:0px; }
+				
+		 
+		 /*footer*/
+		 
+		 #footer { position:relative; float:left; margin-top:480px;}
+		 #footer h3{margin-left:550px;}
+			.foot { float:left; width:1200px; height:30px; text-align:center; box-sizing:border-box;}
+			.foot li { display:inline; }
+			.foot li a {dislpay:block;color:#000; padding:0 5px; text-align:center; text-decoration:none;}
+		address{text-align:center;}
+		.tel{text-align:center;}
+		 
+		 
+		
+		
+	</style>
+</head>
+<body >
+	<div id="wrapper">
+		<div id ="header">
+		
+		<div id="big" >
+			<ul>
+				<li class="s1" ><img src="images/main1.jpg"></li>
+				<li class="s2"><img src="images/main2.jpg"></li>
+				<li class="s3"><img src="images/main3.jpg"></li>
+			</ul>
+		</div>
+			
+			<h1><a href="#"><img src="images/logo.png" alt="더조은펜션 로고"></a></h1>
+			<ul id="gnb">
+				<li class="main">
+						<a href="#">Prologe</a>
+						<ul class="sub">
+							<li><a href="#section1">인사말</a></li>
+							<li><a href="#section2">외부풍경</a></li>
+							<li><a href="#section3">오시는길</a></li>
+						</ul>
+					</li><!--1 -->
+					<li class="main">
+						<a href="#1">Rooms</a>
+						<ul class="sub">
+							<li><a href="#section4">객실</a></li>
+							
+							
+						</ul>
+					</li><!--2 -->
+					<li class="main">
+						<a href="#1">Faility</a>
+						<ul class="sub">
+							<li><a href="#section5">해수욕장</a></li>
+							<li><a href="#section6">야외정원</a></li>
+							<li><a href="#section7">바베큐시설</a></a></li>
+						</ul>
+					</li><!--3 -->
+					<li class="main">
+						<a href="#1">Reservation</a>
+						<ul class="sub">
+							<li><a href="#section7">실시간예약</a></li>
+							<li><a href="#section8">예약안내</a></li>
+						</ul>
+					</li><!--4 -->
+					<li class="main">
+						<a href="#1">Travel</a>
+						<ul class="sub">
+							<li><a href="#section9">주변여행지</a></li>
+						</ul>
+					</li><!--5 -->
+					
+				
+				
+			</ul> <!--gnb끝-->
+		</div> <!--header 끝-->
+		
+	
+	<div id="content1">
+			<ul class="hello">
+				<li><img class="hello" src="images/hello.png" alt="글자"></li>
+			</ul>
+	</div>
+			<ul class="arrow">
+			<li class="left"><img src="images/main-left.png" alt="왼쪽 화살표"></a></li>
+			<li class="right"><img src="images/main-right.png" alt="오른쪽 화살표"></a></li>
+			</ul>
+		<div id="content1">
+			<h2 id="wel"><img src="images/text.png" alt="가운데 텍스트"></h2>
+				<ul class="room">
+					<li class="r1"><a href="#" ><img src="images/room.jpg" onmouseover="this.src='images/room-h.jpg'" onmouseout="this.src='images/room.jpg'" alt="룸1"></a></li>
+					<li class="r2"><a href="#"><img src="images/room2.jpg"onmouseover="this.src='images/room2-h.jpg'" onmouseout="this.src='images/room2.jpg'" alt="룸2"></a></li>
+					<li class="r3"><a href="#"><img src="images/room3.jpg"onmouseover="this.src='images/room3-h.jpg'" onmouseout="this.src='images/room3.jpg'" alt="룸3"></a></li>
+					<li class="r4"><a href="#"><img src="images/room4.jpg"onmouseover="this.src='images/room4-h.jpg'" onmouseout="this.src='images/room4.jpg'" alt="룸4"></a></li>
+					<li class="r5"><a href="#"><img src="images/room5.jpg"onmouseover="this.src='images/room5-h.jpg'" onmouseout="this.src='images/room5.jpg'" alt="룸5"></a></li>
+				</ul>
+		</div><!--content1 끝-->
+		
+		<div id ="content2">
+			<div id ="parent">
+				<div id="imgslide">
+				<ul>
+				<li><img class="sd1" src="images/slide1.jpg" alt ="경치 슬라이드 1"></li>
+			    <li><img class="sd2" src="images/slide2.jpg" alt ="경치 슬라이드 2"></li>
+				<li><img class="sd3" src="images/slide3.jpg" alt ="경치 슬라이드 3"></li>  
+				</ul>
+				</div><!--imgslide끝-->
+			</div><!--parent끝-->
+			
+				<ul class="with">
+					<li><img class="withW" src="images/text2.png" alt="글자"></li>
+				</ul>
+				<ul class="arrow2">
+					<li class="left2"><img src="images/arrow2.png" alt="왼쪽 화살표"></a></li>
+					<li class="right2"><img src="images/arrow2-right.png" alt="오른쪽 화살표"></a></li>
+				</ul>
+				
+				<ul class="Direct">
+					<li><img class="Direct1" src="images/Direct.png" alt="다이렉트 메뉴"></li>
+				</ul>
+				<ul class="bottomMenu">
+					<li class="i1"><a href="#"><img src="images/d1.png" onmouseover="this.src='images/d1-h.png'" onmouseout="this.src='images/d1.png'" alt="예약안내"></a></li>
+					<li class="i2"><a href="#"><img src="images/d2.png"onmouseover="this.src='images/d2-h.png'" onmouseout="this.src='images/d2.png'"alt="오시는 길"></a></li>
+					<li class="i3"><a href="#"><img src="images/d3.png"onmouseover="this.src='images/d3-h.png'" onmouseout="this.src='images/d3.png'"alt="외경보기"></a></li>
+				</ul>	
+					
+		 </div><!--content2 끝-->
+		 
+		 <div id="footer">
+			<h3><a href="#"><img src="images/logo.png" alt="로고"></a></h3>
+			<ul class="foot">					
+					<li><a href="#">위치</a> | </li>
+					<li><a href="#">이용약관</a> | </li>
+					<li><a href="#">고객센터</a> | </li>
+					<li><a href="#">이메일무단수집금지</a> | </li>
+					<li><a href="#">대표자 : 이나영</a></li>					
+				</ul>
+			<address>주소 :  충남 태안군 안면읍 방포 1길 106</address>
+				
+				<ul class="tel">
+					<li>계좌번호 : 농협(000)000-00000000</li>
+					<li>Tel. 123-456-7890</li>
+				</ul>
+		 </div><!--footer 끝-->
+		
+	
+	
+		
+	
+	
+	
+	</div><!--wrapper 끝-->
+	
+	
+	<script>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		document.querySelector('.right').addEventListener('click', function(){
+			document.querySelector('.slider').style.transform = 'translate(-1200px)';
+		});
+		
+		document.querySelector('.left').addEventListener('click', function(){
+			document.querySelector('.slider').style.transform = 'translate(0px)';
+		}); 
+		
+		
+		/* 풍경이미지 자동슬라이드 
+
+			$(function(){
+	
+				$("#imgslide ul li").each(function(aa){
+					$(this).css("left",aa*1055);
+				});  
+				
+				setInterval(function(){
+					$("#imgslide ul li").each(function(aa){
+						var left=parseInt($(this).css("left"));
+						var move=left-1055;
+						$(this).animate({left:move}, 2500, function(){
+							if(move==-1055){
+								$(this).css({left:2110});
+							};
+						});
+					});
+				},4000);
+								
+			});  */ 
+			
+			$(function(){
+	
+				$("#big ul li ").each(function(aa){
+					$(this).css("left",aa*1200);
+				});  
+				
+				setInterval(function(){
+					$("#big ul li").each(function(aa){
+						var left=parseInt($(this).css("left"));
+						var move=left-1200;
+						$(this).animate({left:move}, 2500, function(){
+							if(move==-1200){
+								$(this).css({left:2400});
+							};
+						});
+					});
+				},4000);
+								
+			}); 
+			
+			
+			
+			$(function(){
+				$('#imgslide li').each(function(index){
+					$(this).css({left:index*1055});
+				});
+				$('#imgslide ul li:last').css({left:-1055});	// 마지막 li를 맨 앞으로 배치해 오른쪽으로 이미지가 움직일 때 생기는 공백을 방지한다.
+				
+				$('.left2').click(function(){
+					$('#imgslide li').animate({left:'+=1055px'},'fast', function(){
+						if(parseInt($(this).css('left')) == 2110){
+							$(this).css({left:-1055});
+						}
+					});
+				});
+				$('.right2').click(function(){
+					$('#imgslide li').animate({left:'-=1055px'},'fast', function(){
+						if(parseInt($(this).css('left')) == -2110){
+							$(this).css({left:1055});
+						}
+					});
+				});
+			});	
+			
+			
+			
+	</script>	
+</body>
+</html>
+
